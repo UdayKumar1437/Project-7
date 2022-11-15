@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+body {
+  font-family: "poppins";
+}
+ nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.nav-items {
+  display: flex;
+  gap: 90px;
+  font-size: 25px;
+  font-weight: normal;
+  
+}
+.nav-item:hover{
+  color: #fe5e35;
+  cursor: pointer;
+  font-weight: 600;
+}
+img[alt="logo"] {
+  height: 30px;
+  cursor: pointer;
+}
+img[alt="actions"] {
+  cursor: pointer;
+  height: 40px;
+}
+img[alt="headphone"]{
+  height:450px;
+  position: relative;
+  top: 70px;
+  left: 100px;
+}
+.full{
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  width: 50%;
+}
+.left h5{
+  font-size: 50px;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.left h3{
+  font-size: 55px;
+  font-weight: 800;
+  margin-left: 130px;
+}
+img[alt="plus"]{
+  background-color: #FE5E35;
+  width: 15px;
+  height: 15px;
+  padding: 4px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.sub-headline h5{
+  font-size: 25px;
+}
+.sub-headlines{
+  display: flex;
+  flex-direction: column;
+  gap: -100px;
+  margin-left: 100px;
+}
+.text{
+  margin-left:130px ;
+  margin-top: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  background-color: #FE5E35;
+  padding: 7px 20px;
+  border-radius: 25px;
+}
+.buttons{
+  margin-top: 30px;
+  margin-left: 130px;
+  display: flex;
+  gap: 50px;
+}
+img[alt="discount"]{
+  height: 130px;
+  position: absolute;
+  top: 400px;
+  left: 780px;
+}
+.discount-content{
+  position: absolute;
+  top: 440px;
+  left: 810px;
+  z-index: 2;
+  color: white;
+}
+.dots{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  top: 60px;
+  left: 100px;
+}
+.yellow-dot{
+  height: 30px;
+  width: 30px;
+  background-color: #ffff00;
+  border-radius: 25px;
+}
+.tomato-dot{
+  height: 30px;
+  width: 30px;
+  background-color: #FE5E35;
+  border-radius: 25px;
+}
+.black-dot{
+  height: 30px;
+  width: 30px;
+  background-color: #000000;
+  border-radius: 25px;
+}
+.right a{
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+@media screen and (max-width:426px){
+  .nav-items{
+    display: none;
+    width: 100%;
+  }
+  img[alt="headphone"]{
+    height: 350px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+  }
+  .full{
+    display: flex;
+    flex-direction: column;
+  }
+  .circles{
+    height: 35px;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%
+  }
+  .left h5{
+    text-align: center;
+    font-size: 35px;
+    margin: 0px;
+  }
+  .left h3{
+    font-size: 32px;
+    text-align: center;
+    margin: 0px;
+  }
+  img[alt="plus"]{
+    background-color: #FE5E35;
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    border-radius: 50%;
+  }
+  .sub-headlines{
+    margin-left: 100px;
+  }
+  .sub-headline h5{
+    font-size: 15px;
+    text-align: start;
+  }
+  .text{
+    margin: 10px;
+  }
+  .buttons{
+    margin-top: 5px;
+    margin-left: 0px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+  }
+  img[alt="discount"]{
+    height: 80px;
+    position: absolute;
+    top: 680px;
+    left: 0px;
+  }
+  .discount-content{
+    position: absolute;
+    top: 700px;
+    font-size: 10px;
+    left: 15px;
+    z-index: 2;
+    color: white;
+  }
+  .dots{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    top: 10px;
+    left: 0px;
+  }
+  .right a{
+    position: relative;
+    top: 30px;
+    left: 150px;
+  }
+  
+}
+
